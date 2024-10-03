@@ -1,0 +1,5 @@
+hasCooldown: "#ff2137 × Please wait {time} before you can do this again."
+noLimit: "#4aff36No limits"
+cannotUseElytraWhileHooked: "&cCannot use elytra!"
+canFlyAgain: "&aYou can fly again!"
+cannotUseItemWhileHooked: "&cCannot use this item!"

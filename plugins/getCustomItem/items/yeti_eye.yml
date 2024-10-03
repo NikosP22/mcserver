@@ -1,0 +1,58 @@
+enabled: true
+key: "yeti_eye"
+categoryName: "yeti_eye_category"
+usage: 5
+item:
+  amount: 1
+  material: "SPIDER_EYE"
+  displayname: "#0015ffYeti eye"
+  lore:
+  - "&7"
+  - "#2e3fff× Use this item to give"
+  - "#2e3fff  the weakness effect on X seconds"
+  - "#2e3fff  to near players &7(&f{radius}&7x&f{radius}&7)"
+  - "&7"
+  - "&7• Usage: #ffba61{usage}"
+  - "&7"
+  unbreakable: true
+  glow: true
+  modelData: 0
+itemType: "EFFECT_RADIUS"
+cooldown: 10
+permissionBypass: "getcustomitem.yetieye.bypass"
+soundConfig:
+  enable: true
+  sound: "ENTITY_POLAR_BEAR_HURT"
+notifyYourself:
+- "&7"
+- "#78ff69 × Example YOURSELF!"
+- "&7"
+notifyOpponents:
+- "&7"
+- "#78ff69 × Example OPPONENTS!"
+- "&7"
+titleYourself:
+  enabled: false
+  title: "&aTitle Yourself"
+  subtitle: "&7Subtitle"
+  fadeIn: 10
+  stay: 20
+  fadeOut: 10
+titleOpponents:
+  enabled: false
+  title: "&aTitle opponents"
+  subtitle: "&7Subtitle"
+  fadeIn: 10
+  stay: 20
+  fadeOut: 10
+visualCooldown: false
+# apply the effect to yourself
+includingYou: true
+# apply the effect to players within a radius
+otherPlayers: true
+radius: 5
+activeEffect:
+- potionName: "WEAKNESS"
+  seconds: 3
+  level: 1
+removeEffect: []

@@ -1,0 +1,63 @@
+enabled: true
+key: "egg_throw_it"
+categoryName: "egg_throw_it_category"
+usage: -1
+item:
+  amount: 1
+  material: "EGG"
+  displayname: "#9e9e9eJump egg"
+  lore:
+  - "&7"
+  - "#666666× Throw egg thrue"
+  - "#666666  the player hit him and"
+  - "#666666  throw up it"
+  - "#666666  chance: &f{chance}"
+  - "#666666  power: &f{power-push}"
+  - "&7"
+  - "&7• Usage: #666666{usage}"
+  - "&7"
+  unbreakable: true
+  glow: true
+  modelData: 0
+itemType: "EGG_THROW_UP"
+cooldown: 10
+permissionBypass: "getcustomitem.eggthrowup.bypass"
+soundConfig:
+  enable: true
+  sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
+notifyYourself:
+- "&7"
+- "#78ff69 × Example YOURSELF!"
+- "&7"
+notifyOpponents:
+- "&7"
+- "#78ff69 × Example OPPONENTS!"
+- "&7"
+titleYourself:
+  enabled: false
+  title: "&aTitle Yourself"
+  subtitle: "&7Subtitle"
+  fadeIn: 10
+  stay: 20
+  fadeOut: 10
+titleOpponents:
+  enabled: false
+  title: "&aTitle Opponents"
+  subtitle: "&7Subtitle"
+  fadeIn: 10
+  stay: 20
+  fadeOut: 10
+visualCooldown: false
+pushPower: 1.5
+speedEgg: 1.5
+chance: 100.0
+permissionByPass: "egg.throw.bypass"
+throwingItem:
+  amount: 1
+  material: "EGG"
+  displayname: "Egg"
+  lore: []
+  unbreakable: true
+  glow: true
+  modelData: 0
+maxRange: 25.0

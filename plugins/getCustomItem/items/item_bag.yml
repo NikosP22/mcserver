@@ -1,0 +1,40 @@
+enabled: true
+key: "item_bag"
+categoryName: "item_bag_category"
+usage: -1
+item:
+  amount: 1
+  material: "PLAYER_HEAD"
+  displayname: "#f2ff69Loot Bag"
+  lore:
+  - "&7"
+  - "#beff69Stores items from defeated players!"
+  - "&7"
+  - "&7• Usage: #beff69{usage}"
+  - "&7"
+  base64: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTM3YTM1NTIyZjY3YjJhZjkyMzQ1NTkyODQ2YjcwMmI5YWZiOWQ3YzhkYmFkNWVhMTUwNjczYzllNDRkZTMifX19"
+  unbreakable: true
+  glow: true
+  modelData: 0
+itemType: "ITEMS_BAG"
+cooldown: 5
+permissionBypass: "getcustomitem.itembag.bypass"
+soundConfig:
+  enable: true
+  sound: "UI_BUTTON_CLICK"
+visualCooldown: false
+size: 54
+title: "&0Items Bag"
+itemInventoryTakeAll:
+  item:
+    amount: 1
+    material: "LIME_DYE"
+    displayname: "#beff69Withdraw Items"
+    lore:
+    - ""
+    - "&7Click to withdraw all items"
+    - ""
+    unbreakable: false
+    glow: false
+    modelData: 0
+  slot: 53

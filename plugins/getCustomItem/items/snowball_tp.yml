@@ -1,0 +1,58 @@
+enabled: true
+key: "snowball_tp"
+categoryName: "snowball_tp_category"
+usage: -1
+item:
+  amount: 1
+  material: "SNOWBALL"
+  displayname: "#8c19ffSnowball TP"
+  lore:
+  - "&7"
+  - "#a74fff× Hit the player"
+  - "#a74fff  and swap locations"
+  - "#a74fff  with them"
+  - "&7"
+  - "&7• Usage: #a74fff{usage}"
+  - "&7"
+  unbreakable: true
+  glow: true
+  modelData: 0
+itemType: "SNOWBALL_TP"
+cooldown: 10
+permissionBypass: "getcustomitem.snowballtp.bypass"
+soundConfig:
+  enable: true
+  sound: "BLOCK_ENCHANTMENT_TABLE_USE"
+notifyYourself:
+- "&7"
+- "#78ff69 × Example YOURSELF!"
+- "&7"
+notifyOpponents:
+- "&7"
+- "#78ff69 × Example OPPONENTS!"
+- "&7"
+titleYourself:
+  enabled: false
+  title: "&aTitle Yourself"
+  subtitle: "&7Subtitle"
+  fadeIn: 10
+  stay: 20
+  fadeOut: 10
+titleOpponents:
+  enabled: false
+  title: "&aTitle opponents"
+  subtitle: "&7Subtitle"
+  fadeIn: 10
+  stay: 20
+  fadeOut: 10
+visualCooldown: false
+speed: 2.5
+maxRange: 25.0
+throwingItem:
+  amount: 1
+  material: "SNOWBALL"
+  displayname: "&7"
+  lore: []
+  unbreakable: false
+  glow: false
+  modelData: 0

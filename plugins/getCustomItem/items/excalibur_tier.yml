@@ -1,0 +1,77 @@
+enabled: true
+key: "excalibur_tier"
+categoryName: "excalibur_tier_category"
+usage: -1
+item:
+  amount: 1
+  material: "DIAMOND_SWORD"
+  displayname: "#f2ff69Excalibur"
+  lore:
+  - "&7"
+  - "&7need-int: {need-int}"
+  - "&7need-double: {need-double}"
+  - "&7requirement-int: {requirement-int}"
+  - "&7requirement-double: {requirement-double}"
+  - "&7percent: {percent}%"
+  - "&7Level: {level}"
+  - "&7Next-level: {level-increase}"
+  - "&7Previous: {level-decrease}"
+  - "&7Roman level: {level-roman}"
+  - "&7Roman next-level: {level-roman-increase}"
+  - "&7Roman previous-level: {level-roman-decrease}"
+  - "&7"
+  - "&7{progress}"
+  - "&7"
+  unbreakable: true
+  glow: false
+  modelData: 0
+itemType: "ITEM_TIER"
+cooldown: 5
+permissionBypass: "getcustomitem.excaliburtier.bypass"
+soundConfig:
+  enable: true
+  sound: "UI_BUTTON_CLICK"
+visualCooldown: false
+tierData:
+  1:
+    actionEvents:
+      KILL_ENTITY:
+        ZOMBIE: 1.0
+    item:
+      amount: 1
+      material: "NETHERITE_SWORD"
+      displayname: "#f2ff69Excalibur"
+      lore:
+      - "&7"
+      - "&7need-int: {need-int}"
+      - "&7need-double: {need-double}"
+      - "&7requirement-int: {requirement-int}"
+      - "&7requirement-double: {requirement-double}"
+      - "&7percent: {percent}"
+      - "&7Level: {level}"
+      - "&7Next-level: {level-increase}"
+      - "&7Previous: {level-decrease}"
+      - "&7Roman level: {level-roman}"
+      - "&7Roman next-level: {level-roman-increase}"
+      - "&7Roman previous-level: {level-roman-decrease}"
+      - "&7"
+      - "&7{progress}"
+      - "&7"
+      enchantments:
+        minecraft:knockback: 1
+      unbreakable: true
+      glow: false
+      modelData: 0
+      attributeModifiers:
+        GENERIC_LUCK:
+        - name: "cda9234c-b192-457d-aaeb-dcc187ccbbc0"
+          amount: 2.0
+          operation: "ADD_NUMBER"
+          slot: "HAND"
+    requirementValue: 10.0
+equipmentSlots:
+- "HAND"
+charProgress: "-"
+lengthProgress: 10
+successColor: "#7cff3b"
+failureColor: "#636363"

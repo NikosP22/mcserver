@@ -1,0 +1,51 @@
+enabled: true
+key: "shield_item"
+categoryName: "shield_item_category"
+usage: -1
+item:
+  amount: 1
+  material: "RED_DYE"
+  displayname: "#9e9e9eShield"
+  lore:
+  - "&7"
+  - "#666666× Hand this item"
+  - "#666666  and block hit"
+  - "#666666  block chance {chance}%"
+  - "&7"
+  - "&7• Usage: #666666{usage}"
+  - "&7"
+  unbreakable: true
+  glow: true
+  modelData: 0
+itemType: "SHIELD_ITEM"
+cooldown: 10
+permissionBypass: "getcustomitem.lightningitem.bypass"
+soundConfig:
+  enable: true
+  sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
+notifyYourself:
+- "&7"
+- "#78ff69 × Example YOURSELF!"
+- "&7"
+notifyOpponents:
+- "&7"
+- "#78ff69 × Example OPPONENTS!"
+- "&7"
+titleYourself:
+  enabled: false
+  title: "&aTitle Yourself"
+  subtitle: "&7Subtitle"
+  fadeIn: 10
+  stay: 20
+  fadeOut: 10
+titleOpponents:
+  enabled: false
+  title: "&aTitle Opponents"
+  subtitle: "&7Subtitle"
+  fadeIn: 10
+  stay: 20
+  fadeOut: 10
+visualCooldown: false
+blockChance: 30.0
+equipmentSlots:
+- "OFF_HAND"

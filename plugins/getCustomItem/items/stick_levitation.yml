@@ -1,0 +1,58 @@
+enabled: true
+key: "stick_levitation"
+categoryName: "levitation_category"
+usage: 5
+item:
+  amount: 1
+  material: "BLAZE_ROD"
+  displayname: "#ff9436Stick of levitation"
+  lore:
+  - "&7"
+  - "#ffba61× Use this item to give"
+  - "#ffba61  the levitation effect on X seconds"
+  - "#ffba61  to near players &7(&f{radius}&7x&f{radius}&7)"
+  - "&7"
+  - "&7• Usage: #ffba61{usage}"
+  - "&7"
+  unbreakable: true
+  glow: true
+  modelData: 0
+itemType: "EFFECT_RADIUS"
+cooldown: 10
+permissionBypass: "getcustomitem.sticklevitation.bypass"
+soundConfig:
+  enable: true
+  sound: "ENTITY_VILLAGER_TRADE"
+notifyYourself:
+- "&7"
+- "#78ff69 × Example YOURSELF!"
+- "&7"
+notifyOpponents:
+- "&7"
+- "#78ff69 × Example OPPONENTS!"
+- "&7"
+titleYourself:
+  enabled: false
+  title: "&aTitle Yourself"
+  subtitle: "&7Subtitle"
+  fadeIn: 10
+  stay: 20
+  fadeOut: 10
+titleOpponents:
+  enabled: false
+  title: "&aTitle opponents"
+  subtitle: "&7Subtitle"
+  fadeIn: 10
+  stay: 20
+  fadeOut: 10
+visualCooldown: false
+# apply the effect to yourself
+includingYou: true
+# apply the effect to players within a radius
+otherPlayers: true
+radius: 5
+activeEffect:
+- potionName: "LEVITATION"
+  seconds: 3
+  level: 1
+removeEffect: []

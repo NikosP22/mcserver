@@ -1,0 +1,50 @@
+enabled: true
+key: "anty_cobweb"
+categoryName: "anty_cobweb_category"
+usage: 1
+item:
+  amount: 1
+  material: "SOUL_LANTERN"
+  displayname: "#1aff00Anty-cobweb"
+  lore:
+  - "&7"
+  - "#78ff69× Use this item to"
+  - "#78ff69  remove all cobweb"
+  - "#78ff69  in radius &7(&f{radius-x}&7x&f{radius-y}&7)"
+  - "&7"
+  - "&7• Usage: #78ff69{usage}"
+  - "&7"
+  unbreakable: true
+  glow: true
+  modelData: 0
+itemType: "ANTY_COBWEB"
+cooldown: 10
+permissionBypass: "getcustomitem.antycobweb.bypass"
+soundConfig:
+  enable: true
+  sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
+notifyYourself:
+- "&7"
+- "#78ff69 × Example YOURSELF!"
+- "&7"
+notifyOpponents:
+- "&7"
+- "#78ff69 × Example OPPONENTS!"
+- "&7"
+titleYourself:
+  enabled: false
+  title: "&aTitle Yourself"
+  subtitle: "&7Subtitle"
+  fadeIn: 10
+  stay: 20
+  fadeOut: 10
+titleOpponents:
+  enabled: false
+  title: "&aTitle opponents"
+  subtitle: "&7Subtitle"
+  fadeIn: 10
+  stay: 20
+  fadeOut: 10
+visualCooldown: false
+radiusX: 2
+radiusY: 2

@@ -1,0 +1,58 @@
+enabled: true
+key: "crossbow"
+categoryName: "crossbow_category"
+usage: -1
+item:
+  amount: 1
+  material: "CROSSBOW"
+  displayname: "#40ffe9Teleporting crossbow"
+  lore:
+  - "&7"
+  - "#85fff1× Hit a player and move him to you"
+  - "#85fff1× Chance: #c2fff8{chance}%"
+  - "&7"
+  - "&7&7• Usage: #85fff1{usage}"
+  - "&7"
+  unbreakable: true
+  glow: true
+  modelData: 0
+itemType: "CROSSBOW"
+cooldown: 10
+permissionBypass: "getcustomitem.crossbow.bypass"
+soundConfig:
+  enable: true
+  sound: "ENTITY_TNT_PRIMED"
+notifyYourself:
+- "&7"
+- "#78ff69 × Example YOURSELF!"
+- "&7"
+notifyOpponents:
+- "&7"
+- "#78ff69 × Example OPPONENTS!"
+- "&7"
+titleYourself:
+  enabled: false
+  title: "&aTitle Yourself"
+  subtitle: "&7Subtitle"
+  fadeIn: 10
+  stay: 20
+  fadeOut: 10
+titleOpponents:
+  enabled: false
+  title: "&aTitle opponents"
+  subtitle: "&7Subtitle"
+  fadeIn: 10
+  stay: 20
+  fadeOut: 10
+visualCooldown: false
+particleConfig:
+  enable: true
+  particle: "HEART"
+  count: 0
+  offSetX: 0.0
+  offSetY: 0.0
+  offSetZ: 0.0
+  extra: 0.0
+permissionIgnoreEffect: "getcustomitem.crossbow.ignore"
+chance: 50.0
+maxRange: 25.0

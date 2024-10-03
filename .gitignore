@@ -1,0 +1,12 @@
+# Exclude 
+bundler
+libraries
+logs
+plugins/*.jar
+world
+world_nether
+world_the_end
+spigot.jar
+
+# Include
+!world/datapacks

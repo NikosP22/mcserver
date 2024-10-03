@@ -1,0 +1,68 @@
+enabled: true
+key: "cupid_bow"
+categoryName: "cupid_bow_category"
+usage: -1
+item:
+  amount: 1
+  material: "CROSSBOW"
+  displayname: "#40ffe9Cupid's Bow"
+  lore:
+  - "&7"
+  - "#85fff1× Hit player and"
+  - "#85fff1× give victim blindness"
+  - "#85fff1× Chance: #c2fff8{chance}%"
+  - "&7"
+  - "&7&7• Usage: #85fff1{usage}"
+  - "&7"
+  enchantments:
+    minecraft:unbreaking: 3
+    minecraft:power: 6
+    minecraft:infinity: 1
+    minecraft:flame: 1
+  unbreakable: true
+  glow: false
+  modelData: 0
+itemType: "CUPIDS_BOW"
+cooldown: 10
+permissionBypass: "getcustomitem.cupidbow.bypass"
+soundConfig:
+  enable: true
+  sound: "ENTITY_TNT_PRIMED"
+notifyYourself:
+- "&7"
+- "#78ff69 × Example YOURSELF!"
+- "&7"
+notifyOpponents:
+- "&7"
+- "#78ff69 × Example OPPONENTS!"
+- "&7"
+titleYourself:
+  enabled: false
+  title: "&aTitle Yourself"
+  subtitle: "&7Subtitle"
+  fadeIn: 10
+  stay: 20
+  fadeOut: 10
+titleOpponents:
+  enabled: false
+  title: "&aTitle opponents"
+  subtitle: "&7Subtitle"
+  fadeIn: 10
+  stay: 20
+  fadeOut: 10
+visualCooldown: false
+particleConfig:
+  enable: true
+  particle: "HEART"
+  count: 0
+  offSetX: 0.0
+  offSetY: 0.0
+  offSetZ: 0.0
+  extra: 0.0
+permissionIgnoreEffect: "getcustomitem.cupidbow.ignore"
+potionEffectConfigs:
+- potionName: "BLINDNESS"
+  seconds: 5
+  level: 1
+chance: 50.0
+maxRange: 25.0
