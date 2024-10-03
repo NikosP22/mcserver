@@ -1,3 +1,3 @@
 #!/bin/sh
 
-java -Xms4G -Xmx4G -XX:+UseG1GC -jar spigot.jar
+java -Xms20G -Xmx20G -XX:+UseG1GC -jar spigot.jar
