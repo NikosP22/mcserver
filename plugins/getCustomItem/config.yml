@@ -1,0 +1,13 @@
+# 
+# author - https://www.spigotmc.org/resources/authors/gethertv.571046/
+# discord: https://dc.gether.dev
+# 
+# https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html
+# https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html
+# 
+discord: "https://dc.gether.dev"
+defaultItems: true
+cooldownMessage: "&cMusisz odczekac {time}"
+cooldown:
+  PLAYER: 15

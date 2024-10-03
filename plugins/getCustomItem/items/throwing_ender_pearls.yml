@@ -1,0 +1,61 @@
+enabled: true
+key: "throwing_ender_pearls"
+categoryName: "throwing_ender_pearls_category"
+usage: -1
+item:
+  amount: 1
+  material: "DIAMOND_SWORD"
+  displayname: "#9e9e9eDragon sword"
+  lore:
+  - "&7"
+  - "#666666× Right click to throw"
+  - "#666666× ender pearls"
+  - "&7"
+  - "&7• Usage: #666666{usage}"
+  - "&7"
+  enchantments:
+    minecraft:sharpness: 6
+    minecraft:fire_aspect: 2
+  unbreakable: true
+  glow: false
+  modelData: 0
+itemType: "THROWING_ENDER_PEARLS"
+cooldown: 10
+permissionBypass: "getcustomitem.throwingenderpearls.bypass"
+soundConfig:
+  enable: true
+  sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
+notifyYourself:
+- "&7"
+- "#78ff69 × Example YOURSELF!"
+- "&7"
+notifyOpponents:
+- "&7"
+- "#78ff69 × Example OPPONENTS!"
+- "&7"
+titleYourself:
+  enabled: false
+  title: "&aTitle Yourself"
+  subtitle: "&7Subtitle"
+  fadeIn: 10
+  stay: 20
+  fadeOut: 10
+titleOpponents:
+  enabled: false
+  title: "&aTitle Opponents"
+  subtitle: "&7Subtitle"
+  fadeIn: 10
+  stay: 20
+  fadeOut: 10
+visualCooldown: false
+speed: 1.5
+maxRange: 25.0
+throwingItem:
+  amount: 1
+  material: "ENDER_PEARL"
+  displayname: "&7"
+  lore: []
+  enchantments: {}
+  unbreakable: false
+  glow: false
+  modelData: 0

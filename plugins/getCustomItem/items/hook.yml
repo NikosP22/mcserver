@@ -1,0 +1,49 @@
+enabled: true
+key: "hook"
+categoryName: "hook_category"
+usage: -1
+item:
+  amount: 1
+  material: "FISHING_ROD"
+  displayname: "#f2ff69Magic fishing rod!"
+  lore:
+  - "&7"
+  - "#beff69× Use right click!"
+  - "&7"
+  - "&7• Usage: #beff69{usage}"
+  - "&7"
+  unbreakable: true
+  glow: true
+  modelData: 0
+itemType: "HOOK"
+cooldown: 5
+permissionBypass: "getcustomitem.hook.bypass"
+soundConfig:
+  enable: true
+  sound: "UI_BUTTON_CLICK"
+notifyYourself:
+- "&7"
+- "#78ff69 × Example YOURSELF!"
+- "&7"
+notifyOpponents:
+- "&7"
+- "#78ff69 × Example OPPONENTS!"
+- "&7"
+titleYourself:
+  enabled: false
+  title: "&aTitle Yourself"
+  subtitle: "&7Subtitle"
+  fadeIn: 10
+  stay: 20
+  fadeOut: 10
+titleOpponents:
+  enabled: false
+  title: "&aTitle opponents"
+  subtitle: "&7Subtitle"
+  fadeIn: 10
+  stay: 20
+  fadeOut: 10
+visualCooldown: false
+multiply: 4.0
+divideHeight: 1.7
+divideGliding: 2.0

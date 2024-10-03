@@ -1,0 +1,56 @@
+enabled: true
+key: "lollypop"
+categoryName: "lollypop_category"
+usage: -1
+item:
+  amount: 1
+  material: "LIME_DYE"
+  displayname: "#9e9e9eLollypop"
+  lore:
+  - "&7"
+  - "#666666× Hand this item"
+  - "#666666× to get effects"
+  - "&7"
+  - "&7• Usage: #666666{usage}"
+  - "&7"
+  enchantments:
+    minecraft:sharpness: 6
+    minecraft:fire_aspect: 2
+  unbreakable: true
+  glow: false
+  modelData: 0
+itemType: "ITEM_EFFECT"
+cooldown: 10
+permissionBypass: "getcustomitem.lollypop.bypass"
+soundConfig:
+  enable: true
+  sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
+notifyYourself:
+- "&7"
+- "#78ff69 × Example YOURSELF!"
+- "&7"
+notifyOpponents:
+- "&7"
+- "#78ff69 × Example OPPONENTS!"
+- "&7"
+titleYourself:
+  enabled: false
+  title: "&aTitle Yourself"
+  subtitle: "&7Subtitle"
+  fadeIn: 10
+  stay: 20
+  fadeOut: 10
+titleOpponents:
+  enabled: false
+  title: "&aTitle Opponents"
+  subtitle: "&7Subtitle"
+  fadeIn: 10
+  stay: 20
+  fadeOut: 10
+visualCooldown: false
+potionEffectConfigs:
+- potionName: "SPEED"
+  seconds: 3
+  level: 1
+equipmentSlots:
+- "HAND"

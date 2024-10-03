@@ -1,0 +1,38 @@
+enabled: true
+key: "insta_heal"
+categoryName: "insta_heal_category"
+usage: -1
+item:
+  amount: 1
+  material: "BLUE_DYE"
+  displayname: "#ff4040Vampire Blow"
+  lore:
+  - "&7"
+  - "#ff7a7a× Use this item"
+  - "#ff7a7a  to heal your self"
+  - "#ff7a7a  chance: {chance}%"
+  - "&7"
+  - "&7• Usage: #ff7a7a{usage}"
+  - "&7"
+  unbreakable: true
+  glow: true
+  modelData: 0
+itemType: "INSTA_HEAL"
+cooldown: 10
+permissionBypass: "getcustomitem.instaheal.bypass"
+soundConfig:
+  enable: true
+  sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
+notifyYourself:
+- "&7"
+- "#78ff69 × Example YOURSELF!"
+- "&7"
+titleYourself:
+  enabled: false
+  title: "&aTitle Yourself"
+  subtitle: "&7Subtitle"
+  fadeIn: 10
+  stay: 20
+  fadeOut: 10
+visualCooldown: false
+chance: 100.0

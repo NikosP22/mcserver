@@ -1,0 +1,56 @@
+enabled: true
+key: "reflection_effect"
+categoryName: "reflection_effect_category"
+usage: -1
+item:
+  amount: 1
+  material: "NETHERITE_HELMET"
+  displayname: "#8c19ffReflection Effect"
+  lore:
+  - "&7"
+  - "#a74fff× Get damage and give effect"
+  - "#a74fff  Chance: &f{chance}%"
+  - "&7"
+  - "&7• Usage: #a74fff{usage}"
+  - "&7"
+  unbreakable: true
+  glow: true
+  modelData: 0
+itemType: "REFLECTION_EFFECT"
+cooldown: 10
+permissionBypass: "getcustomitem.reflectioneffect.bypass"
+soundConfig:
+  enable: true
+  sound: "BLOCK_ENCHANTMENT_TABLE_USE"
+notifyYourself:
+- "&7"
+- "#78ff69 × Example YOURSELF!"
+- "&7"
+notifyOpponents:
+- "&7"
+- "#78ff69 × Example OPPONENTS!"
+- "&7"
+titleYourself:
+  enabled: false
+  title: "&aTitle Yourself"
+  subtitle: "&7Subtitle"
+  fadeIn: 10
+  stay: 20
+  fadeOut: 10
+titleOpponents:
+  enabled: false
+  title: "&aTitle Opponents"
+  subtitle: "&7Subtitle"
+  fadeIn: 10
+  stay: 20
+  fadeOut: 10
+visualCooldown: false
+potionEffectConfigs:
+- potionName: "SPEED"
+  seconds: 5
+  level: 1
+equipmentSlots:
+- "HEAD"
+chance: 50.0
+yourSelf: false
+opponents: true

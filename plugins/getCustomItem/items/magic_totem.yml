@@ -1,0 +1,49 @@
+enabled: true
+key: "magic_totem"
+categoryName: "magic_totem_category"
+usage: 1
+item:
+  amount: 1
+  material: "TOTEM_OF_UNDYING"
+  displayname: "#ff6a00Magic totem"
+  lore:
+  - "&7"
+  - "#ffb03b× Use this item to"
+  - "#ffb03b  preserve {chance}% of your"
+  - "#ffb03b  inventory upon dying"
+  - "&7"
+  - "&7• Usage: #ffb03b{usage}"
+  - "&7"
+  unbreakable: true
+  glow: true
+  modelData: 0
+itemType: "MAGIC_TOTEM"
+cooldown: 10
+permissionBypass: "getcustomitem.magictotem.bypass"
+soundConfig:
+  enable: true
+  sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
+notifyYourself:
+- "&7"
+- "#78ff69 × Example YOURSELF!"
+- "&7"
+notifyOpponents:
+- "&7"
+- "#78ff69 × Example OPPONENTS!"
+- "&7"
+titleYourself:
+  enabled: false
+  title: "&aTitle Yourself"
+  subtitle: "&7Subtitle"
+  fadeIn: 10
+  stay: 20
+  fadeOut: 10
+titleOpponents:
+  enabled: false
+  title: "&aTitle opponents"
+  subtitle: "&7Subtitle"
+  fadeIn: 10
+  stay: 20
+  fadeOut: 10
+visualCooldown: false
+chanceLostItem: 10.0

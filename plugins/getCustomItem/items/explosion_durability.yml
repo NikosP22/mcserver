@@ -1,0 +1,56 @@
+enabled: true
+key: "explosion_durability"
+categoryName: "explosion_durability_category"
+usage: -1
+item:
+  amount: 1
+  material: "FIRE_CHARGE"
+  displayname: "#f2ff69Explosion Ball of Durability"
+  lore:
+  - "&7"
+  - "#beff69Explosion Power: {explosion-power}"
+  - "#beff69Durability Cost: {destroy-durability}"
+  - "&7"
+  - "&7• Usage: #beff69{usage}"
+  - "&7"
+  unbreakable: true
+  glow: true
+  modelData: 0
+itemType: "EXPLOSION_BALL"
+cooldown: 5
+permissionBypass: "getcustomitem.explosionitemdurability.bypass"
+soundConfig:
+  enable: true
+  sound: "UI_BUTTON_CLICK"
+notifyYourself:
+- "&7"
+- "#78ff69 × Example YOURSELF!"
+- "&7"
+notifyOpponents:
+- "&7"
+- "#78ff69 × Example OPPONENTS!"
+- "&7"
+titleYourself:
+  enabled: false
+  title: "&aTitle Yourself"
+  subtitle: "&7Subtitle"
+  fadeIn: 10
+  stay: 20
+  fadeOut: 10
+titleOpponents:
+  enabled: false
+  title: "&aTitle Opponents"
+  subtitle: "&7Subtitle"
+  fadeIn: 10
+  stay: 20
+  fadeOut: 10
+visualCooldown: false
+speed: 1.5
+maxRange: 25.0
+whitelistMaterial:
+- "BEDROCK"
+explosionPower: 5.0
+setFire: false
+breakBlocks: false
+igniteFireball: false
+destroyDurability: 10

@@ -1,0 +1,50 @@
+enabled: true
+key: "bear_fur"
+categoryName: "bear_fur_category"
+usage: 10
+item:
+  amount: 1
+  material: "PHANTOM_MEMBRANE"
+  displayname: "#85f2ffBear fur"
+  lore:
+  - "&7"
+  - "#c7f9ff× Use this item to reduced"
+  - "#c7f9ff  your damage by {reduced-damage}%"
+  - "#c7f9ff  for {seconds} seconds"
+  - "&7"
+  - "&7• Usage: #c7f9ff{usage}"
+  - "&7"
+  unbreakable: true
+  glow: true
+  modelData: 0
+itemType: "BEAR_FUR"
+cooldown: 10
+permissionBypass: "getcustomitem.bearfur.bypass"
+soundConfig:
+  enable: true
+  sound: "BLOCK_ANVIL_USE"
+notifyYourself:
+- "&7"
+- "#78ff69 × Example YOURSELF!"
+- "&7"
+notifyOpponents:
+- "&7"
+- "#78ff69 × Example OPPONENTS!"
+- "&7"
+titleYourself:
+  enabled: false
+  title: "&aTitle Yourself"
+  subtitle: "&7Subtitle"
+  fadeIn: 10
+  stay: 20
+  fadeOut: 10
+titleOpponents:
+  enabled: false
+  title: "&aTitle opponents"
+  subtitle: "&7Subtitle"
+  fadeIn: 10
+  stay: 20
+  fadeOut: 10
+visualCooldown: false
+reducedDamage: 50.0
+seconds: 5

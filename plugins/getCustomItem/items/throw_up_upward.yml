@@ -1,0 +1,55 @@
+enabled: true
+key: "throw_up_upward"
+categoryName: "throw_up_category"
+usage: -1
+item:
+  amount: 1
+  material: "STICK"
+  displayname: "#9e9e9ePush stick"
+  lore:
+  - "&7"
+  - "#666666× Use this item"
+  - "#666666  to throw up players"
+  - "#666666  in radius: {radius}"
+  - "#666666  power opponents: &f{push-opponents}"
+  - "#666666  power yourself: &f{push-yourself}"
+  - "&7"
+  - "&7• Usage: #666666{usage}"
+  - "&7"
+  unbreakable: true
+  glow: true
+  modelData: 0
+itemType: "THROW_UP"
+cooldown: 10
+permissionBypass: "getcustomitem.pushitem.bypass"
+soundConfig:
+  enable: true
+  sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
+notifyYourself:
+- "&7"
+- "#78ff69 × Example YOURSELF!"
+- "&7"
+notifyOpponents:
+- "&7"
+- "#78ff69 × Example OPPONENTS!"
+- "&7"
+titleYourself:
+  enabled: false
+  title: "&aTitle Yourself"
+  subtitle: "&7Subtitle"
+  fadeIn: 10
+  stay: 20
+  fadeOut: 10
+titleOpponents:
+  enabled: false
+  title: "&aTitle Opponents"
+  subtitle: "&7Subtitle"
+  fadeIn: 10
+  stay: 20
+  fadeOut: 10
+visualCooldown: false
+includingYou: true
+pushYourself: 1.5
+otherPlayers: true
+pushOpponents: 1.5
+radius: 7

@@ -1,0 +1,55 @@
+enabled: true
+key: "air_filter"
+categoryName: "air_filter_category"
+usage: 1
+item:
+  amount: 1
+  material: "FLINT"
+  displayname: "#608a71Air filter"
+  lore:
+  - "&7"
+  - "#96b0a0× Use this item to clean"
+  - "#96b0a0  a negative effect from yourself"
+  - "&7"
+  - "&7• Usage: #96b0a0{usage}"
+  - "&7"
+  unbreakable: true
+  glow: true
+  modelData: 0
+itemType: "EFFECT_RADIUS"
+cooldown: 10
+permissionBypass: "getcustomitem.airfilter.bypass"
+soundConfig:
+  enable: true
+  sound: "ITEM_TOTEM_USE"
+notifyYourself:
+- "&7"
+- "#78ff69 × Example YOURSELF!"
+- "&7"
+notifyOpponents:
+- "&7"
+- "#78ff69 × Example OPPONENTS!"
+- "&7"
+titleYourself:
+  enabled: false
+  title: "&aTitle Yourself"
+  subtitle: "&7Subtitle"
+  fadeIn: 10
+  stay: 20
+  fadeOut: 10
+titleOpponents:
+  enabled: false
+  title: "&aTitle opponents"
+  subtitle: "&7Subtitle"
+  fadeIn: 10
+  stay: 20
+  fadeOut: 10
+visualCooldown: false
+# apply the effect to yourself
+includingYou: true
+# apply the effect to players within a radius
+otherPlayers: false
+radius: 2
+activeEffect: []
+removeEffect:
+- "WEAKNESS"

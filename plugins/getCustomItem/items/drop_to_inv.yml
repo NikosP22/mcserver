@@ -1,0 +1,38 @@
+enabled: true
+key: "drop_to_inv"
+categoryName: "drop_to_inv_category"
+usage: -1
+item:
+  amount: 1
+  material: "PLAYER_HEAD"
+  displayname: "#9e9e9eCrown of Looting"
+  lore:
+  - "&7"
+  - "&7Automatically sends dropped items"
+  - "&7from killed players directly"
+  - "&7to your inventory."
+  - "&7"
+  - "&7• Usage: #666666{usage}"
+  - "&7"
+  base64: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGYzMzNjNzNjODQ4OWE5Y2EzNWQ1NjAzMTMwOTE4Yjg3NjA5ODRlYjlkMzAyOGUzMGU3NDI0N2RmZjg3M2JmZSJ9fX0="
+  unbreakable: true
+  glow: true
+  modelData: 0
+itemType: "DROP_TO_INV"
+cooldown: 5
+permissionBypass: "getcustomitem.droptoinv.bypass"
+soundConfig:
+  enable: true
+  sound: "UI_BUTTON_CLICK"
+notifyYourself:
+- "&7"
+- "#78ff69 × Example YOURSELF!"
+- "&7"
+titleYourself:
+  enabled: false
+  title: "&aTitle Yourself"
+  subtitle: "&7Subtitle"
+  fadeIn: 10
+  stay: 20
+  fadeOut: 10
+visualCooldown: false
